@@ -247,7 +247,6 @@ padding-inline-end: 5px;
   align-items: center;
   justify-content: center;
   height: 100vh;
-  min-block-size: 668px;
 }
 
 .footer__title-box {
@@ -336,7 +335,11 @@ padding-inline-end: 5px;
     }
 
     .main__gallery-box {
-      grid-template: repeat(3, 29.41%) / repeat(3, 31.59%);
+      grid-template: repeat(3, min-content) / repeat(3, 1fr);
+      gap: 20px;
+    }
+
+    .main__gallery .main__section-item {
       gap: 20px;
     }
 
