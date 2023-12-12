@@ -16,7 +16,6 @@
 .header {
   display: grid;
   grid-template-rows: 1fr min-content min-content;
- /* justify-content: center;*/
   align-items: start;
   padding: 10px 10px 66px 10px;
   position: relative;
@@ -130,8 +129,6 @@ padding-inline-end: 5px;
   font-style: normal;
   font-weight: 700;
   line-height: 82.5%; /* 95.7px */
-  /*padding-block-start: 65px;
-  padding-block-end: 55px;*/
 }
 
 .header__text {
@@ -146,7 +143,7 @@ padding-inline-end: 5px;
   color: var(--header-text-color);
 }
 
-/* -------main------*/
+/*main*/
 
 .main {
   padding: 0 10px;
@@ -219,10 +216,6 @@ padding-inline-end: 5px;
 }
 
 /* gallery*/
-
-/*.main__gallery {
-  margin-block-end: 40px;
-}*/
 
 .main__gallery-box {
   display: grid;
