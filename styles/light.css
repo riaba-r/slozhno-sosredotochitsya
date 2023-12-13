@@ -17,6 +17,7 @@
   --button-hover-color: rgba(50, 49, 45, 0.4);
   --bg-img: url(../images/cover-image-light.png);
   --main-text-color: #353430;
+  --shadow-title-color: #ff0070;
 }
 
 .theme_light .header__decorated {
@@ -33,6 +34,7 @@
     --button-hover-color: rgba(50, 49, 45, 0.4);
     --bg-img: url(../images/cover-image-light.png);
     --main-text-color: #353430;
+    --shadow-title-color: #ff0070;
   }
 
   .header__decorated {
@@ -40,12 +42,3 @@
   }
 }
 
-@media (1024px <= width) {
-  .theme_light .header__title {
-    text-shadow: 4px 4px 0px #ff0070;
-  }
-
-  .theme_light .footer__title {
-    text-shadow: 2px 2px 0px #ff0070;
-  }
-}

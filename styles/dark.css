@@ -3,6 +3,19 @@
   здесь окажутся стили, которые нужно переопределить принудительно,
   переключая тему
 */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --acent-color: #ff0070;
+  --title-color: #db00ff;
+  --header-text-color: #000028;
+  --header-decoration-color: #ff0070;
+  --title-decor-color: #ff0070;
+  --button-hover-color: rgba(255, 0, 112, 0.4);
+  --bg-img: url(../images/cover-image-dark.png);
+  --main-text-color: #f1b2ce;
+  --shadow-title-color: #ff0070;
+  }
+}
 
 .page.theme_dark {
   /* сохраните этот селектор в приведённом виде.
@@ -17,6 +30,7 @@
   --button-hover-color: rgba(255, 0, 112, 0.4);
   --bg-img: url(../images/cover-image-dark.png);
   --main-text-color: #f1b2ce;
+  --shadow-title-color: #ff0070;
 }
 
 .theme_dark .header__decorated {
